@@ -14,4 +14,5 @@ Our algorithm has taken the logarithm of a value and multiply it with the sum of
 
 Now, consider an equation:
                          𝒚 = 𝟏𝟔 𝒍𝒏(𝒙) + 𝟑1
+
 We now compute the values of y for x=1 to x=10.               
