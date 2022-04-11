@@ -18,3 +18,26 @@ Now, consider an equation:
 We now compute the values of y for x=1 to x=10. The value of y increases with the increasing value of x, indicating that the graph will be increasing. At the same time, another trend is observed that the difference between the values of y for increasing x is decreasing. Example, the difference between the values of y for x=1 and x=4 is 22.18. But the difference between thevalues of y for x=7 and x=10 is only 5.71. This indicates that there is a decay in the rate of rise in our graph. The graph will be of increasing nature but the rate of increase will be decreasing with the increasing value of x.
 
 ![1](https://user-images.githubusercontent.com/103348726/162681168-bb239fc4-7b5f-4853-bf7f-407e7c708a48.PNG)
+
+The graph of the above equation is rising but the rate of increase of graph is decreasing. This forms the basis of choosing our time quantum. The value of time quantum must increase initially at a faster rate so that it can accommodate or allow the processes with lower burst time to be executed. But at the same time, this value of time quantum must not increase at such a rapid rate that it exceeds the maximum burst item or becoming equal to that of maximum burst time. 
+
+                                 𝒙 = 𝐥𝐨𝐠(𝒎𝒆𝒂𝒏+𝒎𝒆𝒅𝒊𝒂𝒏) ∗ (𝐥𝐧(𝒎𝒆𝒂𝒏+𝒎𝒆𝒅𝒊𝒂𝒏) + (𝒎𝒆𝒂𝒏− 𝒍𝒐𝒘𝒆𝒔𝒕 𝒃𝒖𝒓𝒔𝒕 𝒕𝒊𝒎𝒆))
+
+If x is greater than both mean and median, then we assign time quantum as x because x has already covered both mean and median and rather passed them.
+
+                                                               Time Quantum=x;
+                                                               
+Otherwise, if x lies between mean and median or is lower than both mean and median, then there is a need to add something to the value of x, so that it can cover/include both mean and median again. For this, we add (median-lowest burst time) to the value of x and assign that value to our time quantum.
+
+                                                      Time Quantum=x+(Mean-Lowest burst time);
+
+Now, the processes which are less than or equal to that of time quantum, will be executed in increasing order of their burst times. For those processes, which are greater than this time quantum, we assign a different value of time quantum for those processes. Again, the same concept is applied here as well, that is, to stabilize the time quantum to an appropriate value. For such, processes we calculate the time quantum as the sum of the mean of remaining processes and the natural log of the difference between the maximum and minimum burst time in the remaining processes.
+
+              Time quantum= mean of remaining processes + ln(maximum burst time in remaining processes-minimum burst time in remaining processes)
+
+# Output Results
+
+![2](https://user-images.githubusercontent.com/103348726/162682622-7aefd03c-603d-4b1b-bef9-4e030ef18edb.PNG)
+
+![3](https://user-images.githubusercontent.com/103348726/162682666-7bc9e874-07ad-4f0c-bd55-f543465bb69f.PNG)
+
