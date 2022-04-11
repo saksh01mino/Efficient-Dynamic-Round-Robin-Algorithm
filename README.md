@@ -41,3 +41,15 @@ Now, the processes which are less than or equal to that of time quantum, will be
 
 ![3](https://user-images.githubusercontent.com/103348726/162682666-7bc9e874-07ad-4f0c-bd55-f543465bb69f.PNG)
 
+# Comprartive Analysis and Results
+
+To show the comparisons between other proposed algorithms and the proposed algorithm, we draw the bar graphs for all the proposed algorithms with the proposed algorithm. In the graph, x-axis represents the name of the already proposed algorithms and our proposed algorithm. Similarly, y-axis in the graph represents the  average waiting time in milliseconds with a scale of 1 unit = 50 milliseconds.
+
+![4](https://user-images.githubusercontent.com/103348726/162683691-901f790c-46fc-4353-ad69-ae476578c610.PNG)
+
+![5](https://user-images.githubusercontent.com/103348726/162683720-5e3c937c-ad9d-4eda-8a03-7f9c2776b8aa.PNG)
+
+![6](https://user-images.githubusercontent.com/103348726/162683742-00158301-f1e2-459d-a9c9-83ba63578445.PNG)
+
+
+
