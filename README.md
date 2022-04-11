@@ -16,5 +16,5 @@ Now, consider an equation:
                          𝒚 = 𝟏𝟔 𝒍𝒏(𝒙) + 𝟑1
 
 We now compute the values of y for x=1 to x=10. The value of y increases with the increasing value of x, indicating that the graph will be increasing. At the same time, another trend is observed that the difference between the values of y for increasing x is decreasing. Example, the difference between the values of y for x=1 and x=4 is 22.18. But the difference between thevalues of y for x=7 and x=10 is only 5.71. This indicates that there is a decay in the rate of rise in our graph. The graph will be of increasing nature but the rate of increase will be decreasing with the increasing value of x.
-![1](https://user-images.githubusercontent.com/103348726/162681168-bb239fc4-7b5f-4853-bf7f-407e7c708a48.PNG)
 
+![1](https://user-images.githubusercontent.com/103348726/162681168-bb239fc4-7b5f-4853-bf7f-407e7c708a48.PNG)
