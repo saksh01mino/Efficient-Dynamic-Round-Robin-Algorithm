@@ -8,8 +8,10 @@ utilization, throughput, turnaround time, waiting time, response time, and conte
 To design a new Dynamic Round Robin Algorithm for increasing the performance of the CPU by decreasing the average waiting time and minimizing the number of context switches.To make one scheduling algorithm of our own and compare its waiting and turnaround time with other algorithms already there. 
 
 # Proposed Algorithm
-
 Our algorithm has taken the logarithm of a value and multiply it with the sum of two other values. Now, the mean of a data is that value which represents the entire data set in one value and it is the mean with which each value in the data set can correspond itself to. The median is the middle-most value of the data. So, the mean and median are the measures of central tendency, it is these values which can give us a representative value for the entire data. Thus, we have taken the logarithm of the sum of mean and median of the burst time of the processes. Now this logarithm is multiplied by the sum of natural log of mean and median and the difference between the mean and lowest burst time.
 
                                      𝑥 = log(𝑚𝑒𝑎𝑛 + 𝑚𝑒𝑑𝑖𝑎𝑛) ∗ (ln(𝑚𝑒𝑎𝑛 + 𝑚𝑒𝑑𝑖𝑎𝑛) + (𝑚𝑒𝑎𝑛 − 𝑙𝑜𝑤𝑒𝑠𝑡 𝑏𝑢𝑟𝑠𝑡 𝑡𝑖𝑚𝑒))
 
+Now, consider an equation:
+                         𝒚 = 𝟏𝟔 𝒍𝒏(𝒙) + 𝟑1
+We now compute the values of y for x=1 to x=10.               
