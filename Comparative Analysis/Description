@@ -1,0 +1,3 @@
+To show the comparisons between other proposed algorithms and our proposed algorithm, we draw the bar graphs for all the proposed algorithms with our proposed algorithm.
+In the graph, x-axis represents the name of the proposed algorithms and our proposed algorithm. Similarly, y-axis in the graph represents the average waiting time in milliseconds with a scale of 1 unit =50 
+milliseconds.
