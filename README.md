@@ -34,19 +34,3 @@ Otherwise, if x lies between mean and median or is lower than both mean and medi
 Now, the processes which are less than or equal to that of time quantum, will be executed in increasing order of their burst times. For those processes, which are greater than this time quantum, we assign a different value of time quantum for those processes. Again, the same concept is applied here as well, that is, to stabilize the time quantum to an appropriate value. For such, processes we calculate the time quantum as the sum of the mean of remaining processes and the natural log of the difference between the maximum and minimum burst time in the remaining processes.
 
               Time quantum= mean of remaining processes + ln(maximum burst time in remaining processes-minimum burst time in remaining processes)
-
-# Output Results
-
-![2](https://user-images.githubusercontent.com/103348726/162682622-7aefd03c-603d-4b1b-bef9-4e030ef18edb.PNG)
-
-![3](https://user-images.githubusercontent.com/103348726/162682666-7bc9e874-07ad-4f0c-bd55-f543465bb69f.PNG)
-
-# Comprartive Analysis and Results
-
-To show the comparisons between other proposed algorithms and the proposed algorithm, we draw the bar graphs for all the proposed algorithms with the proposed algorithm. In the graph, x-axis represents the name of the already proposed algorithms and our proposed algorithm. Similarly, y-axis in the graph represents the  average waiting time in milliseconds with a scale of 1 unit = 50 milliseconds.
-
-![4](https://user-images.githubusercontent.com/103348726/162683691-901f790c-46fc-4353-ad69-ae476578c610.PNG)
-
-![5](https://user-images.githubusercontent.com/103348726/162683720-5e3c937c-ad9d-4eda-8a03-7f9c2776b8aa.PNG)
-
-![6](https://user-images.githubusercontent.com/103348726/162683742-00158301-f1e2-459d-a9c9-83ba63578445.PNG)
