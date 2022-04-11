@@ -50,6 +50,3 @@ To show the comparisons between other proposed algorithms and the proposed algor
 ![5](https://user-images.githubusercontent.com/103348726/162683720-5e3c937c-ad9d-4eda-8a03-7f9c2776b8aa.PNG)
 
 ![6](https://user-images.githubusercontent.com/103348726/162683742-00158301-f1e2-459d-a9c9-83ba63578445.PNG)
-
-
-
